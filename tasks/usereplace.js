@@ -1,6 +1,6 @@
 /*
- * grunt-replace
- * https://github.com/mysterycommand/grunt-replace
+ * grunt-usereplace
+ * https://github.com/mysterycommand/grunt-usereplace
  *
  * Copyright (c) 2013 Matt Hayes
  * Licensed under the MIT license.
@@ -19,8 +19,8 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('replace', 'Your task description goes here.', function() {
-    // grunt.log.subhead('replace:').writeln(inspect(this));
+  grunt.registerMultiTask('usereplace', 'Your task description goes here.', function() {
+    // grunt.log.subhead('usereplace:').writeln(inspect(this));
 
     var options = this.options();
     // grunt.log.subhead('options:').writeln(inspect(options));
