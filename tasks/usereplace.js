@@ -21,12 +21,12 @@ module.exports = function(grunt) {
   // creation: http://gruntjs.com/creating-tasks
 
   grunt.registerMultiTask('usereplace', 'Your task description goes here.', function() {
-    grunt.log.subhead('usereplace:').writeln(inspect(this));
+    // grunt.log.subhead('usereplace:').writeln(inspect(this));
 
     var options = this.options();
-    grunt.log.subhead('options:').writeln(inspect(options));
+    // grunt.log.subhead('options:').writeln(inspect(options));
     var files = grunt.file.expand({filter: 'isFile'}, this.data);
-    grunt.log.subhead('files:').writeln(inspect(files));
+    // grunt.log.subhead('files:').writeln(inspect(files));
     var dest = options.dest;
 
     // begin build pattern: will match
