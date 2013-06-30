@@ -1,7 +1,7 @@
 {
   "name": "grunt-usereplace",
   "description": "A dead simple HTML find & replace plugin. Loosely based on grunt-usemin.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/mysterycommand/grunt-usereplace",
   "author": {
     "name": "Matt Hayes",
