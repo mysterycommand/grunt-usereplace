@@ -1,8 +1,8 @@
 {
-  "name": "grunt-replace",
-  "description": "The best Grunt plugin ever.",
+  "name": "grunt-usereplace",
+  "description": "A dead simple HTML find & replace plugin. Loosely based on grunt-usemin.",
   "version": "0.1.0",
-  "homepage": "https://github.com/mysterycommand/grunt-replace",
+  "homepage": "https://github.com/mysterycommand/grunt-usereplace",
   "author": {
     "name": "Matt Hayes",
     "email": "matt@mysterycommand.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mysterycommand/grunt-replace.git"
+    "url": "git://github.com/mysterycommand/grunt-usereplace.git"
   },
   "bugs": {
-    "url": "https://github.com/mysterycommand/grunt-replace/issues"
+    "url": "https://github.com/mysterycommand/grunt-usereplace/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/mysterycommand/grunt-replace/blob/master/LICENSE-MIT"
+      "url": "https://github.com/mysterycommand/grunt-usereplace/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
