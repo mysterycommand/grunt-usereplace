@@ -47,11 +47,19 @@ module.exports = function(grunt) {
     //     },
     //   },
     // },
-    replace: {
+    usereplace: {
+      // TODO: figure out how to get multiple task targets to work, and how to test them.
+      // inline: {
+      //   src: ['tmp/inline.html']
+      // },
+      // incopy: {
+      //   dest: 'tmp',
+      //   src: ['test/fixtures/index.html']
+      // }
       options: {
         dest: 'tmp'
       },
-      html: 'test/fixtures/index.html'
+      html: ['test/fixtures/index.html']
     },
 
     // Unit tests.
@@ -71,7 +79,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'replace', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'usereplace', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);
