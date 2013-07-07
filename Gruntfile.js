@@ -48,18 +48,14 @@ module.exports = function(grunt) {
     //   },
     // },
     usereplace: {
-      // TODO: figure out how to get multiple task targets to work, and how to test them.
-      // inline: {
-      //   src: ['tmp/inline.html']
-      // },
-      // incopy: {
-      //   dest: 'tmp',
-      //   src: ['test/fixtures/index.html']
-      // }
       options: {
         dest: 'tmp'
       },
-      html: ['test/fixtures/index.html']
+      html: [
+        'test/fixtures/index.html',
+        'test/fixtures/index2.html',
+        'test/fixtures/index3.html'
+      ]
     },
 
     // Unit tests.
